@@ -27,60 +27,8 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Kelly
-  * Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
- <style>
-    /* Dil Seçim Butonu Stilleri */
-    .language-selector {
-      position: fixed;
-      top: 20px;
-      right: 20px;
-      z-index: 1000;
-    }
-    .language-selector button {
-      background: #007bff;
-      color: white;
-      border: none;
-      padding: 8px 12px;
-      cursor: pointer;
-      border-radius: 4px;
-      font-size: 14px;
-    }
-    .language-selector button:hover {
-      background: #0056b3;
-    }
-    .language-selector .hidden {
-      display: none;
-    }
-    .language-selector #langMenu {
-      margin-top: 8px;
-      background: white;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-    .language-selector #langMenu button {
-      display: block;
-      width: 100%;
-      text-align: left;
-      padding: 8px 12px;
-      background: white;
-      color: black;
-      border-bottom: 1px solid #eee;
-    }
-    .language-selector #langMenu button:last-child {
-      border-bottom: none;
-    }
-    .language-selector #langMenu button:hover {
-      background: #f8f9fa;
-    }
-  </style>
+ 
 <body class="about-page">
 
   <header id="header" class="header d-flex align-items-center light-background sticky-top">
@@ -93,11 +41,14 @@
       </a>
 
      
-          <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html" class="active" data-en="Home" data-tr="Anasayfa">Home</a></li>
-          <li><a href="about.html" data-en="About" data-tr="Hakkında">About</a></li>
+            <nav id="navmenu" class="navmenu">
+       <ul>
+          <li><a href="index.html" data-en="Home"  data-tr="Anasayfa">Home</a></li>
+          <li><a href="about.html" class="active" data-en="About" data-tr="Hakkımızda">About</a></li>
+          <li><a href="whatarewedoing.html"   data-en="What We Do" data-tr="Biz Ne Yaparız">Biz Ne Yaparız</a></li>
           <li><a href="portfolio.html" data-en="Portfolio" data-tr="Portföy">Portfolio</a></li>
+           <li><a href="referance.html" data-en="References" data-tr="Referanslar">References</a></li>
+        
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -146,17 +97,6 @@
     </div>
   </section><!-- /About Section -->
 
-  <!-- Testimonials Section -->
-  <section id="testimonials" class="testimonials section">
-    <div class="container section-title" data-aos="fade-up">
-      <h2 data-tr="Neden bizi seçmelisiniz?" data-en="Why should we choose?">Why should we choose?</h2>
-      <p class="fst-italic py-3" style="text-align: justify;"
-         data-tr="Yüksek enerji maliyetlerinin olduğu bir dönemde, Kent Teknoloji enerji tasarrufu sağlayan ekranlar üretiyor..."
-         data-en="At a time when energy costs are high, Kent Teknoloji is producing screens that save up to 40% energy...">
-         At a time when energy costs are high, Kent Teknoloji is producing screens that save up to 40% energy...
-      </p>
-    </div>
-  </section><!-- /Testimonials Section -->
 
   <!-- Stats Section -->
   <section id="stats" class="stats section">
@@ -208,10 +148,7 @@
   <section id="skills" class="skills section">
     <div class="container section-title" data-aos="fade-up">
       <h2 data-tr="Ne Yapıyoruz?" data-en="What are we doing?">What are we doing?</h2>
-      <p data-tr="Müşteri memnuniyetini hedefleyerek TSE ve ISO 9001:2008 sertifikalarını alarak kurumsal yapımızı güçlendirdik."
-         data-en="By aiming for customer satisfaction and effective service delivery, the company has strengthened its corporate structure by obtaining TSE service qualification and ISO 9001:2008 quality management system certification.">
-         By aiming for customer satisfaction and effective service delivery, the company has strengthened its corporate structure by obtaining TSE service qualification and ISO 9001:2008 quality management system certification.
-      </p>
+    
     </div>
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -225,9 +162,9 @@
               <h5 class="card-title fw-bold mb-3" style="letter-spacing: 1px;"
                   data-tr="ÜRÜN ÜRETİMİ ve KURULUM" data-en="PRODUCT MANUFACTURING and setup">PRODUCT MANUFACTURING and setup</h5>
               <p class="fst-italic py-2" style="text-align: justify; color: #555;"
-                 data-tr="KOBİ’ler için güvenilir ve ölçeklenebilir ağ altyapısı çözümleri sunuyoruz."
-                 data-en="We provide robust network infrastructure solutions tailored for SMEs, ensuring reliability and scalability.">
-                 We provide robust network infrastructure solutions tailored for SMEs, ensuring reliability and scalability.
+                 data-tr="Firmamız %65 yerlilik oranıyla ürünlerini Türkiye’de üretip 7 bölgede kurulumlarını gerçekleştirmektedir."
+                 data-en="Our company manufactures products with a 65% local content ratio in Turkey and has installations in 7 regions.">
+                 Our company manufactures products with a 65% local content ratio in Turkey and has installations in 7 regions.
               </p>
             </div>
           </div>
@@ -241,9 +178,9 @@
               <h5 class="card-title fw-bold mb-3" style="letter-spacing: 1px;"
                   data-tr="İÇERİK YÖNETİMİ ve SİTEM" data-en="CONTENT MANAGEMENT and MY SITE">CONTENT MANAGEMENT and MY SITE</h5>
               <p class="fst-italic py-2" style="text-align: justify; color: #555;"
-                 data-tr="Uzman ekibimiz, iş süreçlerinizi optimize edecek BT danışmanlık hizmetleri sunar."
-                 data-en="Our expert team offers IT consulting services to optimize your business processes and technology investments.">
-                 Our expert team offers IT consulting services to optimize your business processes and technology investments.
+                 data-tr="Geliştirdiğimiz içerik yönetim yazılımı ile internet erişimi olan her noktadan ekranlarınızı yönetebilir, gruplandırabilir, zamanlama oluşturabilir ve tek noktadan tek noktaya veya tek noktadan çok noktaya içerik gönderebilirsiniz."
+                 data-en="With our content management software, you can manage and group your screens, create schedules, and send content from a single point to one or multiple locations — all from anywhere with internet access.">
+                 With our content management software, you can manage and group your screens, create schedules, and send content from a single point to one or multiple locations — all from anywhere with internet access.
               </p>
             </div>
           </div>
@@ -257,9 +194,9 @@
               <h5 class="card-title fw-bold mb-3" style="letter-spacing: 1px;"
                   data-tr="BAKIM ve ONARIM" data-en="MAINTENANCE and REPAIR">MAINTENANCE and REPAIR</h5>
               <p class="fst-italic py-2" style="text-align: justify; color: #555;"
-                 data-tr="Uzman ekibimiz, iş süreçlerinizi optimize edecek BT danışmanlık hizmetleri sunar."
-                 data-en="Our expert team offers IT consulting services to optimize your business processes and technology investments.">
-                 Our expert team offers IT consulting services to optimize your business processes and technology investments.
+                 data-tr="Firmamız, profesyonel teknik kadrosu ile kurulumunu yaptığı ürünlerin garanti süresince ve garanti sonrasında her türlü teknik destek ve hizmetini sağlamaktadır."
+                 data-en="Our company, with its professional technical team, provides full technical support and services for the products it installs — both during and after the warranty period.">
+                Our company, with its professional technical team, provides full technical support and services for the products it installs — both during and after the warranty period.
               </p>
             </div>
           </div>

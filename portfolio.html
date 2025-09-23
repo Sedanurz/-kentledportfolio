@@ -29,52 +29,7 @@
 
   
 </head>
-<style>
-    /* Dil Seçim Butonu Stilleri */
-    .language-selector {
-      position: fixed;
-      top: 20px;
-      right: 20px;
-      z-index: 1000;
-    }
-    .language-selector button {
-      background: #007bff;
-      color: white;
-      border: none;
-      padding: 8px 12px;
-      cursor: pointer;
-      border-radius: 4px;
-      font-size: 14px;
-    }
-    .language-selector button:hover {
-      background: #0056b3;
-    }
-    .language-selector .hidden {
-      display: none;
-    }
-    .language-selector #langMenu {
-      margin-top: 8px;
-      background: white;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-    .language-selector #langMenu button {
-      display: block;
-      width: 100%;
-      text-align: left;
-      padding: 8px 12px;
-      background: white;
-      color: black;
-      border-bottom: 1px solid #eee;
-    }
-    .language-selector #langMenu button:last-child {
-      border-bottom: none;
-    }
-    .language-selector #langMenu button:hover {
-      background: #f8f9fa;
-    }
-  </style>
+
 <body class="portfolio-page">
 
   <header id="header" class="header d-flex align-items-center light-background sticky-top">
@@ -86,11 +41,14 @@
       </a>
 
      
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html" class="active" data-en="Home" data-tr="Anasayfa">Home</a></li>
-          <li><a href="about.html" data-en="About" data-tr="Hakkında">About</a></li>
-          <li><a href="portfolio.html" data-en="Portfolio" data-tr="Portföy">Portfolio</a></li>
+          <nav id="navmenu" class="navmenu">
+       <ul>
+          <li><a href="index.html" data-en="Home"  data-tr="Anasayfa">Home</a></li>
+          <li><a href="about.html" data-en="About" data-tr="Hakkımızda">About</a></li>
+          <li><a href="whatarewedoing.html"   data-en="What We Do" data-tr="Biz Ne Yaparız">Biz Ne Yaparız</a></li>
+          <li><a href="portfolio.html" class="active" data-en="Portfolio" data-tr="Portföy">Portfolio</a></li>
+           <li><a href="referance.html" data-en="References" data-tr="Referanslar">References</a></li>
+        
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
