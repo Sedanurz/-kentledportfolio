@@ -29,7 +29,52 @@
 
   
 </head>
-
+<style>
+    /* Dil Seçim Butonu Stilleri */
+    .language-selector {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+    .language-selector button {
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      cursor: pointer;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    .language-selector button:hover {
+      background: #0056b3;
+    }
+    .language-selector .hidden {
+      display: none;
+    }
+    .language-selector #langMenu {
+      margin-top: 8px;
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .language-selector #langMenu button {
+      display: block;
+      width: 100%;
+      text-align: left;
+      padding: 8px 12px;
+      background: white;
+      color: black;
+      border-bottom: 1px solid #eee;
+    }
+    .language-selector #langMenu button:last-child {
+      border-bottom: none;
+    }
+    .language-selector #langMenu button:hover {
+      background: #f8f9fa;
+    }
+  </style>
 <body class="portfolio-page">
 
   <header id="header" class="header d-flex align-items-center light-background sticky-top">
@@ -42,13 +87,11 @@
 
      
           <nav id="navmenu" class="navmenu">
-       <ul>
-          <li><a href="index.html" data-en="Home"  data-tr="Anasayfa">Home</a></li>
-          <li><a href="about.html" data-en="About" data-tr="Hakkımızda">About</a></li>
-          <li><a href="whatarewedoing.html"   data-en="What We Do" data-tr="Biz Ne Yaparız">Biz Ne Yaparız</a></li>
-          <li><a href="portfolio.html" class="active" data-en="Portfolio" data-tr="Portföy">Portfolio</a></li>
-           <li><a href="referance.html" data-en="References" data-tr="Referanslar">References</a></li>
-        
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" >About</a></li>
+          <li><a href="whatarewedoing.html"  >What We Do</a></li>
+          <li><a href="portfolio.html"class="active">Portfolio</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -57,7 +100,7 @@
 
     </div>
   </header>
-
+  <br><br>
   <main class="main">
 
     <!-- Portfolio Section -->
@@ -83,201 +126,201 @@
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="https://muhammed-kentled-demo.vercel.app/img/zeytinbuz1.jpg" class="img-fluid" alt="">
+              <img src="/assets/img/galeri/zeytinbuz1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Indoor</h4>
-                <a href="https://muhammed-kentled-demo.vercel.app/img/zeytinbuz1.jpg"  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>              </div>
+                <a href="/assets/img/galeri/zeytinbuz1.jpg"  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>              </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="https://muhammed-kentled-demo.vercel.app/img/collesium.jpg" class="img-fluid" alt="">
+              <img src="/assets/img/galeri/collesium.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Outdoor</h4>
-                <a href="https://muhammed-kentled-demo.vercel.app/img/collesium.jpg"  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="/assets/img/galeri/collesium.jpg"  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="https://kentled.com/wp-content/uploads/2021/12/mobilled1-scaled.jpg" class="img-fluid" alt="">
+              <img src="/assets/img/galeri/mobilledekran.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Mobil Led</h4>
-                <a href="https://kentled.com/wp-content/uploads/2021/12/mobilled1-scaled.jpg"  data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="/assets/img/galeri/mobilledekran.jpg"  data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="https://muhammed-kentled-demo.vercel.app/img/guess.jpg" class="img-fluid" alt="">
+              <img src="/assets/img/galeri/guess.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Indoor</h4>
-                <a href="https://muhammed-kentled-demo.vercel.app/img/guess.jpg"  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="/assets/img/galeri/guess.jpg"  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="https://muhammed-kentled-demo.vercel.app/img/gizia.jpg" class="img-fluid" alt="">
+              <img src="/assets/img/galeri/gizia.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Outdoor</h4>
-                <a href="https://muhammed-kentled-demo.vercel.app/img/gizia.jpg"  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="/assets/img/galeri/gizia.jpg"  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
           
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="https://muhammed-kentled-demo.vercel.app/img/likeemlak.jpg" class="img-fluid" alt="">
+              <img src="/assets/img/galeri/likeemlak.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Indoor</h4>
-                <a href="https://muhammed-kentled-demo.vercel.app/img/likeemlak.jpg"  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="/assets/img/galeri/likeemlak.jpg"  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
             
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="https://muhammed-kentled-demo.vercel.app/img/enzahomelike.jpg" class="img-fluid" alt="">
+              <img src="/assets/img/galeri/enzahomelike.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Indoor</h4>
-                <a href="https://muhammed-kentled-demo.vercel.app/img/enzahomelike.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="/assets/img/galeri/enzahomelike.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
             
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="https://kentled.com/wp-content/uploads/2021/12/Fame-scaled.jpg" class="img-fluid" alt="">
+              <img src="/assets/img/galeri/fame.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Indoor</h4>
-                <a href="https://kentled.com/wp-content/uploads/2021/12/Fame-scaled.jpg"  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="/assets/img/galeri/fame.jpg"  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="https://muhammed-kentled-demo.vercel.app/img/famelike.jpg" class="img-fluid" alt="">
+              <img src="/assets/img/galeri/famelike.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Indoor</h4>
-                <a href="https://muhammed-kentled-demo.vercel.app/img/famelike.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="/assets/img/galeri/famelike.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="https://muhammed-kentled-demo.vercel.app/img/musiad3.jpg" class="img-fluid" alt="">
+              <img src="/assets/img/galeri/musiad3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Indoor</h4>
-                <a href="https://muhammed-kentled-demo.vercel.app/img/musiad3.jpg"  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="/assets/img/galeri/musiad3.jpg"  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="https://muhammed-kentled-demo.vercel.app/img/yatas2.jpg" class="img-fluid" alt="">
+              <img src="/assets/img/galeri/yatas2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Indoor</h4>
-                <a href="https://muhammed-kentled-demo.vercel.app/img/yatas2.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="/assets/img/galeri/yatas2.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="https://muhammed-kentled-demo.vercel.app/img/tria1.jpg" class="img-fluid" alt="">
+              <img src="/assets/img/galeri/tria1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Indoor</h4>
-                <a href="https://muhammed-kentled-demo.vercel.app/img/tria1.jpg"  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="/assets/img/galeri/tria1.jpg"  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="https://muhammed-kentled-demo.vercel.app/img/tria2.jpg" class="img-fluid" alt="">
+              <img src="/assets/img/galeri/tria2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Indoor</h4>
-                <a href="https://muhammed-kentled-demo.vercel.app/img/tria2.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="/assets/img/galeri/tria2.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="https://muhammed-kentled-demo.vercel.app/img/mallofflike2.jpg" class="img-fluid" alt="">
+              <img src="/assets/img/galeri/mallofflike2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Indoor</h4>
-                <a href="https://muhammed-kentled-demo.vercel.app/img/mallofflike2.jpg"  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-
-             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="https://muhammed-kentled-demo.vercel.app/img/mallofflike.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Indoor</h4>
-                <a href="https://muhammed-kentled-demo.vercel.app/img/mallofflike.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="https://muhammed-kentled-demo.vercel.app/img/meftek.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Indoor</h4>
-                <a href="https://muhammed-kentled-demo.vercel.app/img/meftek.jpg"  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="/assets/img/galeri/mallofflike2.jpg"  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
 
              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="https://muhammed-kentled-demo.vercel.app/img/meftek1.jpg" class="img-fluid" alt="">
+              <img src="/assets/img/galeri/mallofflike.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Indoor</h4>
-                <a href="https://muhammed-kentled-demo.vercel.app/img/meftek1.jpg"  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="/assets/img/galeri/mallofflike.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="https://muhammed-kentled-demo.vercel.app/img/colinsLike.jpg" class="img-fluid" alt="">
+              <img src="/assets/img/galeri/meftek.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Indoor</h4>
-                <a href="https://muhammed-kentled-demo.vercel.app/img/colinsLike.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="/assets/img/galeri/meftek.jpg"  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
 
              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="https://muhammed-kentled-demo.vercel.app/img/livialike1.jpg" class="img-fluid" alt="">
+              <img src="/assets/img/galeri/meftek1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Indoor</h4>
-                <a href="https://muhammed-kentled-demo.vercel.app/img/livialike1.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="/assets/img/galeri/meftek1.jpg"  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="/assets/img/galeri/colinsLike.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Indoor</h4>
+                <a href="/assets/img/galeri/colinsLike.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
+             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="/assets/img/galeri/livialike1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Indoor</h4>
+                <a href="/assets/img/galeri/livialike1.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="https://muhammed-kentled-demo.vercel.app/img/livialike4.jpg" class="img-fluid" alt="">
+              <img src="/assets/img/galeri/livialike4.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Indoor</h4>
-                <a href="https://muhammed-kentled-demo.vercel.app/img/livialike4.jpg"  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="/assets/img/galeri/livialike4.jpg"  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="https://muhammed-kentled-demo.vercel.app/img/livinglablike1.jpg" class="img-fluid" alt="">
+              <img src="/assets/img/galeri/livinglablike1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Indoor</h4>
-                <a href="https://muhammed-kentled-demo.vercel.app/img/livinglablike1.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="/assets/img/galeri/livinglablike1.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="https://muhammed-kentled-demo.vercel.app/img/dileklike1.jpg" class="img-fluid" alt="">
+              <img src="/assets/img/galeri/dileklike1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Indoor</h4>
-                <a href="https://muhammed-kentled-demo.vercel.app/img/dileklike1.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="/assets/img/galeri/dileklike1.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="https://muhammed-kentled-demo.vercel.app/img/dileklike.jpg" class="img-fluid" alt="">
+              <img src="/assets/img/galeri/dileklike.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Indoor</h4>
-                <a href="https://muhammed-kentled-demo.vercel.app/img/dileklike.jpg"data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="/assets/img/galeri/dileklike.jpg"data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="https://muhammed-kentled-demo.vercel.app/img/ceramicLike.jpg" class="img-fluid" alt="">
+              <img src="/assets/img/galeri/ceramicLike.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Indoor</h4>
-                <a href="https://muhammed-kentled-demo.vercel.app/img/ceramicLike.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="/assets/img/galeri/ceramicLike.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -285,61 +328,61 @@
 
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="https://muhammed-kentled-demo.vercel.app/img/ramada1.jpg" class="img-fluid" alt="">
+              <img src="/assets/img/galeri/ramada1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Outdoor</h4>
-                <a href="https://muhammed-kentled-demo.vercel.app/img/ramada1.jpg"  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="/assets/img/galeri/ramada1.jpg"  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="https://muhammed-kentled-demo.vercel.app/img/cocukparki.jpg" class="img-fluid" alt="">
+              <img src="/assets/img/galeri/cocukparki.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Outdoor</h4>
-                <a href="https://muhammed-kentled-demo.vercel.app/img/cocukparki.jpg"  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="/assets/img/galeri/cocukparki.jpg"  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             
 
              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="https://muhammed-kentled-demo.vercel.app/img/bahcelievlerlike.jpg" class="img-fluid" alt="">
+              <img src="/assets/img/galeri/bahcelievlerlike.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Outdoor</h4>
-                <a href="https://muhammed-kentled-demo.vercel.app/img/bahcelievlerlike.jpg"  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="/assets/img/galeri/bahcelievlerlike.jpg"  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="https://muhammed-kentled-demo.vercel.app/img/bayrampasaLike.jpg" class="img-fluid" alt="">
+              <img src="/assets/img/galeri/bayrampasaLike.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Outdoor</h4>
-                <a href="https://muhammed-kentled-demo.vercel.app/img/bayrampasaLike.jpg"  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="/assets/img/galeri/bayrampasaLike.jpg"  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
               <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="https://kentled.com/wp-content/uploads/2024/09/NKD_7204-scaled.jpg" class="img-fluid" alt="">
+              <img src="/assets/img/galeri/NKD_7204-scaled.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Outdoor</h4>
-                <a href="https://kentled.com/wp-content/uploads/2024/09/NKD_7204-scaled.jpg"  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="/assets/img/galeri/NKD_7204-scaled.jpg"  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
       
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="https://kentled.com/wp-content/uploads/2021/12/33-e1724316311187.jpg" class="img-fluid" alt="">
+              <img src="/assets/img/galeri/33-e1724316311187.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Outdoor</h4>
-                <a href="https://kentled.com/wp-content/uploads/2021/12/33-e1724316311187.jpg" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="/assets/img/galeri/33-e1724316311187.jpg" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="https://kentled.com/wp-content/uploads/2022/07/Axis_istanbul_P16_Outdoor_Led_Ekran.png" class="img-fluid" alt="">
+              <img src="/assets/img/galeri/07/Axis_istanbul_P16_Outdoor_Led_Ekran.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Outdoor</h4>
-                <a href="https://kentled.com/wp-content/uploads/2022/07/Axis_istanbul_P16_Outdoor_Led_Ekran.png"  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="/assets/img/galeri/07/Axis_istanbul_P16_Outdoor_Led_Ekran.png"  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
