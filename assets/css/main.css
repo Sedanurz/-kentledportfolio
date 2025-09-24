@@ -295,10 +295,12 @@
 
 #about .card-body {
   display: flex;
-  justify-content: center; /* yatay ortala */
-  align-items: flex-end;   /* yazıyı alta yasla */
-  height: 1px;        /* sabit bir yükseklik (gerekirse artır/azalt) */
+  justify-content: center;   /* yatay ortala */
+  align-items: flex-end;     /* alta yasla */
+  padding: 10px;             /* resme binmemesi için iç boşluk */
+  height: auto;              /* 1px sabit yükseklik kaldırıldı */
 }
+
 
 
 :root {
