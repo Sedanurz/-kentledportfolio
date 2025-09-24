@@ -39,7 +39,7 @@
 
 /* Kırmızı metin paneli */
 #testimonials .what-led-card .red-panel{
-  background:#d63a3f; color:#fff; padding:28px 30px; border-radius:6px;
+  background:red; color:#fff; padding:28px 30px; border-radius:6px;
 }
 
 /* Sol görsel kolonu ve çerçeveler */
