@@ -1,16 +1,23 @@
-This project is the official portfolio website of Kentled, designed to present the company’s services, products, and achievements in a modern and professional way.
+🌐 Kentled Portfolio Website
 
-🚀 Features
+Welcome to the official Kentled Portfolio Website repository.
+This website has been developed to present Kentled’s vision, mission, services, and projects with a modern, professional, and responsive design.
 
-Responsive design (optimized for desktop, tablet, and mobile)
+🏢 About Kentled
 
-Built with HTML5 & CSS3
+Kentled is a forward-looking company specializing in innovative LED solutions for a variety of industries. With a commitment to quality, reliability, and customer satisfaction, Kentled provides cutting-edge products and services that meet global standards.
 
-Multi-language support: 🇬🇧 English & 🇹🇷 Turkish
+🚀 Features of the Website
 
-Showcases company profile, services, and projects
+Responsive Design – works seamlessly on desktop, tablet, and mobile
 
-Easy to deploy and maintain
+Multi-language Support – 🇬🇧 English & 🇹🇷 Turkish options
+
+Modern UI/UX – clean and professional layout
+
+Company-Oriented Content – services, projects, and corporate profile highlighted
+
+Easy to host on GitHub Pages or any web server
 
 📂 Project Structure
 /assets
@@ -24,5 +31,4 @@ English (EN)
 
 Turkish (TR)
 
-The website includes language options so users can navigate in their preferred language
-
+Visitors can switch languages directly from the website for a better user experience.
