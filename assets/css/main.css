@@ -1,3 +1,15 @@
+.custom-card {
+  position: relative;
+}
+
+.custom-img {
+  margin-bottom: 15px; /* Görsel ile yazı arasında boşluk */
+  transform: translateY(-10px); /* Görseli 10px yukarı taşı */
+}
+
+.card-body {
+  padding-top: 10px; /* Yazıyı biraz aşağı alır */
+}
 
 
 .references {
